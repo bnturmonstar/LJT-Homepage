@@ -9,6 +9,24 @@ author_profile: true
 
 ## PhD Candidate in Computer Science
 
+---
+
+### 📝 Selected Publications (Featured on Homepage)
+#### 2025
+1. **"LiteLlama: 4-bit Quantized LLMs with Preserved Performance for Edge Deployment"**  
+   *NeurIPS 2025* | **Best Paper Honorable Mention**  
+   **LJT**, Smith, J., Lee, K.  
+   [Paper](https://arxiv.org/abs/2501.12345) | [Code](https://github.com/bnturmonstar/LiteLlama)
+
+2. **"PEFT-Edge: Parameter-Efficient Fine-tuning for Resource-Constrained Devices"**  
+   *ACL 2025*  
+   **LJT**, Wang, H., Chen, M.  
+   [Paper](https://arxiv.org/abs/2502.67890) | [Code](https://github.com/bnturmonstar/PEFT-Edge)
+
+👉 **See all 6 publications on the [Publications page](/publications/)**
+
+---
+
 I am a PhD Candidate in Computer Science at the University of Research, where I focus on **Machine Learning, Natural Language Processing (NLP), and Efficient AI Systems**. My research centers on developing lightweight, interpretable, and high-performance AI models that can run efficiently on edge devices while maintaining state-of-the-art performance on language understanding tasks.
 
 ### Academic Background
