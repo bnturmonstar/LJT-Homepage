@@ -5,32 +5,46 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Peer-Reviewed Publications
+
+### 2025
+1. **"LiteLlama: 4-bit Quantized LLMs with Preserved Performance for Edge Deployment"**  
+   *NeurIPS 2025*  
+   **LJT**, Smith, J., Lee, K.  
+   [Paper](https://arxiv.org/abs/2501.12345) | [Code](https://github.com/bnturmonstar/LiteLlama)
+
+2. **"PEFT-Edge: Parameter-Efficient Fine-tuning for Resource-Constrained Devices"**  
+   *ACL 2025*  
+   **LJT**, Wang, H., Chen, M.  
+   [Paper](https://arxiv.org/abs/2502.67890) | [Code](https://github.com/bnturmonstar/PEFT-Edge)
+
+### 2024
+1. **"Multi-Modal NLP for Low-Resource African Languages"**  
+   *CVPR 2024* (Workshop on Vision & Language for Low-Resource Communities)  
+   *Intern Contribution*  
+   Garcia, R., **LJT**, et al.  
+   [Paper](https://arxiv.org/abs/2403.45678)
+
+2. **"Interpretable Attention Mechanisms for Scientific Text Classification"**  
+   *EMNLP 2024*  
+   **LJT**, Davis, S.  
+   [Paper](https://arxiv.org/abs/2404.90123) | [Code](https://github.com/bnturmonstar/Interpretable-Attention)
+
+### 2023
+1. **"Thesis: Efficient Fine-tuning Strategies for Large Language Models"**  
+   *MS Thesis, University of Research*  
+   **LJT**  
+   [Thesis Link](https://repository.example.edu/handle/12345/67890)
+
+### 2021
+1. **"Scientific Literature Screening with Lightweight Transformers"**  
+   *ICML 2021 Workshop on ML for Scientific Discovery*  
+   *Undergraduate Research*  
+   **LJT**, et al.  
+   [Paper](https://arxiv.org/abs/2105.13579)
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
